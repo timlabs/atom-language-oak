@@ -1,0 +1,59 @@
+'scopeName': 'source.oak'
+'name': 'Oak'
+'fileTypes': ['oak']
+
+'patterns': [
+  {
+    'begin': '/#'
+    'end': '#/'
+    'name': 'comment'
+  }
+  {
+    'match': '#.*$'
+    'name': 'comment'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string'
+  }
+  {
+    'begin': "'"
+    'end': "'"
+    'name': 'string'
+  }
+  {
+    'match': '''
+      \\b(and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some
+      |then|with)\\b
+      '''
+    'name': 'keyword.operator'
+  }
+  {
+    'match': '''
+      \\b(assume|axiom|begin|by|end|exit|include|now|proof|schema|so|suppose
+      |take)\\b
+      '''
+    'name': 'keyword.other.special-method'
+  }
+  {
+    'match': '\\b(contradiction|false|free|thesis|true)\\b'
+    'name': 'constant'
+  }
+  {
+    'match': '''
+      \\b(\
+      for (all|any) meta\
+      |for (all|any)\
+      |for (at least one|some)\
+      |there (exist|exists|is|are)( (an|a|at least one|some))?\
+      |for no\
+      |there (exist|exists|is|are) no\
+      |is a\
+      |is an\
+      |such that\
+      )\\b
+      '''
+    'name': 'support.syntax.function'
+  }
+]
