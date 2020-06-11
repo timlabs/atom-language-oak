@@ -24,24 +24,6 @@
   }
   {
     'match': '''
-      \\b(and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some\
-      |then|with)\\b
-      '''
-    'name': 'keyword.operator'
-  }
-  {
-    'match': '''
-      \\b(assume|axiom|begin|by|end|exit|include|now|proof|schema|so|suppose\
-      |take)\\b
-      '''
-    'name': 'keyword.other.special-method'
-  }
-  {
-    'match': '\\b(contradiction|false|free|thesis|true)\\b'
-    'name': 'constant'
-  }
-  {
-    'match': '''
       \\b(\
       for (all|any) meta\
       |for (all|any)\
@@ -55,5 +37,23 @@
       )\\b
       '''
     'name': 'support.syntax.function'
+  }
+  {
+    'match': '''
+      \\b(assume|axiom|begin|by|end|exit|include|now|proof|schema|so|suppose\
+      |take)\\b
+      '''
+    'name': 'keyword.other.special-method'
+  }
+  {
+    'match': '''
+      \\b(and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some\
+      |then|with)\\b
+      '''
+    'name': 'keyword.operator'
+  }
+  {
+    'match': '\\b(contradiction|false|free|thesis|true)\\b'
+    'name': 'constant'
   }
 ]
