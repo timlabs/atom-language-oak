@@ -24,14 +24,14 @@
   }
   {
     'match': '''
-      \\b(and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some
+      \\b(and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some\
       |then|with)\\b
       '''
     'name': 'keyword.operator'
   }
   {
     'match': '''
-      \\b(assume|axiom|begin|by|end|exit|include|now|proof|schema|so|suppose
+      \\b(assume|axiom|begin|by|end|exit|include|now|proof|schema|so|suppose\
       |take)\\b
       '''
     'name': 'keyword.other.special-method'
