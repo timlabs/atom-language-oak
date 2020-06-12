@@ -2,4 +2,4 @@
 
 An [Atom](https://atom.io/) language package for the [Oak](http://oakproof.org/) proof checker.
 
-Provides syntax highlighting.
+Provides syntax highlighting and automatic indentation.
