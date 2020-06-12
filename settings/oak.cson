@@ -1,0 +1,4 @@
+'.source.oak':
+  'editor':
+    'increaseIndentPattern': '^\\s*(now\\s*|proof\\s*|suppose\\s+.*|take\\s+.*)$'
+    'decreaseIndentPattern': '^\\s*(end\\s*)$'
