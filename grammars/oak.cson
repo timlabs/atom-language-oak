@@ -34,9 +34,11 @@
       |is a\
       |is an\
       |such that\
+      |and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some|then\
+      |with\
       )\\b
       '''
-    'name': 'support.syntax.function'
+    'name': 'keyword.operator'
   }
   {
     'match': '''
@@ -44,13 +46,6 @@
       |take)\\b
       '''
     'name': 'keyword.other.special-method'
-  }
-  {
-    'match': '''
-      \\b(and|any|define|every|if|iff|implies|in|is|let|no|not|of|on|or|some\
-      |then|with)\\b
-      '''
-    'name': 'keyword.operator'
   }
   {
     'match': '\\b(contradiction|false|free|thesis|true)\\b'
