@@ -1,6 +1,6 @@
 {
   "name": "language-oak",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A language package for the Oak proof checker",
   "repository": "https://github.com/timlabs/atom-language-oak",
   "license": "AGPL-3.0",
