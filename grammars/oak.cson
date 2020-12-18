@@ -25,8 +25,8 @@
   {
     'match': '''
       \\b(\
-      for (all|any) meta\
-      |for (all|any)\
+      for (all|any|each|every) meta\
+      |for (all|any|each|every)\
       |for (at least one|some)\
       |there (exist|exists|is|are)( (an|a|at least one|some))?\
       |for no\
