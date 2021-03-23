@@ -18,11 +18,6 @@
     'name': 'string'
   }
   {
-    'begin': "'"
-    'end': "'"
-    'name': 'string'
-  }
-  {
     'match': '''
       \\b(\
       for (all|any|each|every) meta\
