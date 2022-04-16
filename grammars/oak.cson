@@ -34,7 +34,7 @@
   {
     'match': '''
       \\b(assume|axiom|begin assume|by|end|exit|from|include|now|proof|schema\
-      |so|suppose|take|tie-in)\\b
+      |so|suppose|take)\\b
       '''
     'name': 'keyword.other.special-method'
   }
