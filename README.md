@@ -1,5 +1,5 @@
-# Atom language package for Oak
+# Pulsar language package for Oak
 
-An [Atom](https://atom.io/) language package for the [Oak](http://oakproof.org/) proof checker.
+A [Pulsar](https://pulsar-edit.dev/) (formerly Atom) language package for the [Oak](http://oakproof.org/) proof checker.
 
 Provides syntax highlighting, automatic indentation, and comment toggling.
