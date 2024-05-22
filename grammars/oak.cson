@@ -33,8 +33,8 @@
   }
   {
     'match': '''
-      \\b(assume|axiom|begin assume|by|end|exit|from|include|now|proof|schema\
-      |so|suppose|take|tie-in)\\b
+      \\b(assume|axiom|begin assume|by|end|exit|from|include|marker|now|proof\
+      |schema|so|suppose|take|tie-in)\\b
       '''
     'name': 'keyword.other.special-method'
   }
